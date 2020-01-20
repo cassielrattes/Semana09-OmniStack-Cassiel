@@ -14,7 +14,7 @@ const io = socketio(server);
 
 
 
-mongoose.connect('mongodb+srv://cassielrattes:Sander123@@cluster0-0mcpq.mongodb.net/semana09?retryWrites=true&w=majority', {
+mongoose.connect('Your MongoDB Connection', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
